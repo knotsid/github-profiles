@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #2e2a68 74%);
+
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 input {
-    background-color: #4c2885;
+    background-image: linear-gradient(135deg, #9708CC 10%, #43CBFF 100%);
     border-radius: 10px;
     border: none;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
@@ -38,8 +38,7 @@ input:focus {
 }
 
 .card {
-    background-color: #4c2885;
-    background-image: linear-gradient(315deg, #4c2885 0%, #4c11ac 100%);
+    background-image: linear-gradient(135deg, #FCCF31 5%, #F55555 80%);
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
         0 15px 40px rgba(0, 0, 0, 0.1);
